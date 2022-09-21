@@ -28,14 +28,14 @@ const ProductCard = (props) => {
                     {title}
                 </Card.Title>
                 <Card.Title>
-                    Rs. <span className="h3">{price}</span>
+                    $. <span className="h3">{price}00</span>
                 </Card.Title>
                 <Button
                     onClick={()=> addToCart()}
                     className={`${theme? 'bg-dark-primary text-black':'bg-light-primary' } d-flex align-item-center m-auto border-0`}
                 >
                     <BsCartPlus size="1.8rem" />
-                    Add to cart
+                    Add product
                 </Button>
             </Card.Body>
         </Card>
